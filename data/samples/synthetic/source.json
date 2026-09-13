@@ -1,0 +1,32 @@
+{
+  "source_kind": "synthetic",
+  "generator": "tools/generate_synthetic.py",
+  "seed": 163,
+  "warning": "Artificial growing rays and analytic displacements. Not COMSOL, not a validated fracture solution.",
+  "coordinate_provenance": "Fixed local reference plate midsurface z=0; irregular jittered interior nodes with exact clamped boundary nodes.",
+  "domain_topology": "single_convex_plate_without_holes",
+  "field_definitions": {
+    "u_m": "Synthetic illustrative u_m; analytic designer pattern, no governing equation solved.",
+    "v_m": "Synthetic illustrative v_m; analytic designer pattern, no governing equation solved.",
+    "w_m": "Synthetic illustrative w_m; analytic designer pattern, no governing equation solved.",
+    "sigma1_Pa": "Synthetic illustrative sigma1_Pa; analytic designer pattern, no governing equation solved.",
+    "von_mises_Pa": "Synthetic illustrative von_mises_Pa; analytic designer pattern, no governing equation solved.",
+    "damage": "Synthetic illustrative damage; analytic designer pattern, no governing equation solved.",
+    "strain_energy_J_m3": "Synthetic illustrative strain_energy_J_m3; analytic designer pattern, no governing equation solved."
+  },
+  "frame_count": 32,
+  "node_count": 4225,
+  "duration_seconds": 0.02,
+  "plate_size_m": [
+    1.0,
+    1.0
+  ],
+  "plate_thickness_m": 0.008,
+  "impact_uv": [
+    0.5,
+    0.5
+  ],
+  "physics_validated": false,
+  "damage_irreversibility": "Nondecreasing analytical activation by construction.",
+  "purpose": "Validate field interpolation, encoding, time playback, materials and camera presentation only."
+}

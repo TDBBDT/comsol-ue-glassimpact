@@ -1,0 +1,29 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.ini text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.cs text eol=lf
+*.usf text eol=lf
+*.ush text eol=lf
+*.hlsl text eol=lf
+*.ps1 text eol=crlf
+*.uproject text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.exr binary
+*.pdf binary
+*.bin binary
+*.rgba16f binary
+*.uasset binary
+*.umap binary
+*.mph binary

@@ -1,0 +1,12 @@
+{
+  "checked_date": "2026-09-13",
+  "python": "3.9.13",
+  "comsol_executable_present": true,
+  "comsol_version_expected": "6.3",
+  "license_checkout_verified_for_glass": false,
+  "unreal_editor_present": true,
+  "unreal_version": "5.6.1",
+  "scaffolding_data_source": "synthetic",
+  "unrelated_projects_modified": false,
+  "module_availability": "Unverified: license files are present, but named product entitlements were not inferred. Confirm in the COMSOL GUI."
+}

@@ -1,0 +1,29 @@
+{
+  "source_kind": "comsol",
+  "domain_topology": "single_convex_plate_without_holes",
+  "case_id": "REPLACE_WITH_VERIFIED_CASE_ID",
+  "template_only": true,
+  "comsol_version": "6.3",
+  "model_sha256": "REPLACE_AFTER_SOLVE",
+  "model_status": "unverified",
+  "field_definitions": {
+    "u_m": "COMSOL displacement along reference plate X, metres",
+    "v_m": "COMSOL displacement along reference plate Y, metres",
+    "w_m": "COMSOL displacement along reference plate Z, metres; negative downward",
+    "damage": "phase_field_phi; 0=intact, 1=crack; not quadratic stiffness loss",
+    "sigma1_Pa": "REPLACE_WITH_ACTUAL_DAMAGED_CAUCHY_PRINCIPAL_STRESS_EXPRESSION",
+    "von_mises_Pa": "REPLACE_WITH_ACTUAL_DAMAGED_VON_MISES_EXPRESSION",
+    "strain_energy_J_m3": "REPLACE_WITH_ACTUAL_RECOVERABLE_ENERGY_EXPRESSION_AND_VOLUME_FRAME"
+  },
+  "coordinate_provenance": {
+    "frame": "material_reference",
+    "surface": "glass_bottom_only_Z=-0.004m",
+    "raw_z_offset_m": 0.004,
+    "mapped_z_m": 0,
+    "x_range_m": [-0.5, 0.5],
+    "y_range_m": [-0.5, 0.5],
+    "node_ids": "stable_export_point_ids_sorted_by_reference_coordinates"
+  },
+  "physical_validation": {"energy_passed": false, "irreversibility_passed": false, "time_mesh_sensitivity_passed": false, "material_calibrated": false},
+  "notes": "Template only. Fill actual provenance and remove template_only only after a real solve; never relabel synthetic outputs."
+}

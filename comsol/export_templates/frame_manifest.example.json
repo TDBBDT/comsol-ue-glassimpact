@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "columns": ["x_m", "y_m", "z_m", "u_m", "v_m", "w_m", "sigma1_Pa", "von_mises_Pa", "damage", "strain_energy_J_m3"],
+  "delimiter": "whitespace",
+  "source_sidecar": "source.json",
+  "z_offset_m": 0.004,
+  "frames": [
+    {"time_s": 0.0, "file": "frame_000.txt"},
+    {"time_s": 0.00001, "file": "frame_001.txt"}
+  ]
+}

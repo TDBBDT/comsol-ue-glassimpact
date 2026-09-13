@@ -1,0 +1,38 @@
+{
+  "glass_size_cm": [
+    100,
+    100
+  ],
+  "frame_aperture_cm": [
+    98,
+    98
+  ],
+  "glass_overlap_per_edge_cm": 1,
+  "seal_aperture_cm": [
+    97.6,
+    97.6
+  ],
+  "seal_local_z_cm": [
+    -0.03,
+    0.42
+  ],
+  "shared_actor_transform": true,
+  "world_front_normal": [
+    0.0,
+    -1.0000000000000002,
+    -2.220446049250313e-16
+  ],
+  "world_local_y": [
+    0.0,
+    -2.220446049250313e-16,
+    1.0000000000000002
+  ],
+  "camera_fov_degrees": 38,
+  "glass_center_world_cm": [
+    0,
+    0,
+    75
+  ],
+  "source_kind": "synthetic",
+  "note": "Fixture geometry checks, not a new physics simulation."
+}

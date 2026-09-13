@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "case_id": "glass_A1_center_sphere",
+  "parameter_status": "design_starting_values_unvalidated",
+  "solver_status": "not_solved",
+  "required_version": "COMSOL 6.3",
+  "module_availability": "not_verified_by_license_checkout",
+  "geometry": {"plate_size_m": [1.0, 1.0, 0.008], "plate_center_m": [0, 0, 0], "clamp": "four_vertical_side_faces", "sphere_radius_m": 0.025, "sphere_center_m": [0, 0, 0.02901]},
+  "material": {"name": "soda_lime_glass_unvalidated_starting_values", "E_Pa": 70000000000, "nu": 0.22, "rho_kg_m3": 2500, "Gc_J_m2": 8, "phase_field_model": "AT1", "internal_length_m": 0.002, "residual_stiffness_eta": 0.00001, "tension_compression_split": "spectral_strain"},
+  "impact": {"type": "rigid_sphere_contact", "equivalent_sphere_density_kg_m3": 7850, "mass_kg": 0.5137812985558308, "initial_velocity_m_s": [0, 0, -1], "initial_gap_m": 0.00001, "initial_kinetic_energy_J": 0.2568906492779154, "friction": false, "gravity": false, "prescribed_motion_after_initialization": false},
+  "numerics": {"solver": "implicit_generalized_alpha", "include_inertia": true, "geometry_nonlinear": true, "end_time_s_initial_trial": 0.002, "end_time_s_later_tail": 0.02, "initial_step_s": 0.00000002, "max_step_s_initial_trial": 0.0000001, "relative_tolerance": 0.0001, "phase_field_zone_hmax_m": 0.0005, "contact_zone_hmax_m_starting_range": [0.0001, 0.00025], "output_frame_target": 64, "all_settings_require_sensitivity_study": true},
+  "export": {"surface": "bottom_reference_Z=-0.004m", "reference_z_offset_m": 0.004, "damage_definition": "phase_field_phi", "mapped_z_m": 0, "reference_coordinates": true, "units": "SI"},
+  "not_claimed": ["radial_cracking_guaranteed", "glass_strength_calibrated", "mesh_converged", "energy_verified", "physical_crack_opening_width"]
+}

@@ -1,0 +1,15 @@
+{
+  "state": {
+    "bytes": 67108864,
+    "hash_match": true,
+    "all_finite": true,
+    "encoded_damage_non_decreasing": true
+  },
+  "displacement": {
+    "bytes": 67108864,
+    "hash_match": true,
+    "all_finite": true,
+    "peak_downward_time_s": 0.00193548387096774,
+    "peak_downward_w_m": -0.0005217140795983452
+  }
+}

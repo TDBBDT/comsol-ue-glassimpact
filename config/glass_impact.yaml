@@ -1,0 +1,9 @@
+{
+  "texture_resolution": [512, 512],
+  "plate_size_m": [1.0, 1.0],
+  "plate_origin_m": [-0.5, -0.5],
+  "impact_uv": [0.5, 0.5],
+  "damage_monotonic_tolerance": 1e-8,
+  "preview_duration_seconds": 3.2,
+  "write_damage_png16": true
+}
